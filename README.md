@@ -29,6 +29,53 @@ Prints all possible pairs of elements in the array.
 ### 5. Print All Subarrays
 Prints all contiguous subarrays that can be formed from the array.
 
+## 🧠 Topics Covered
+
+- Duplicate detection
+- Binary search in rotated arrays
+- Stock profit optimization
+- Trapping rain water
+
+---
+
+## ✅ Solved Questions
+
+### 1. **Contains Duplicate**
+**Problem**: Given an integer array, determine if it contains any duplicates.
+
+- ✅ *File*: `PartOne.java`
+- ✅ *Approach*: Brute force approach.
+- ✅ *Time Complexity*: O(n * n)
+
+---
+
+### 2. **Search in Rotated Sorted Array**
+**Problem**: Given a rotated sorted array and a target value, return its index or -1 if not found.
+
+- ✅ *File*: `PartOne.java`
+- ✅ *Approach*: Modified Binary Search.
+- ✅ *Time Complexity*: O(log n)
+
+---
+
+### 3. **Best Time to Buy and Sell Stock**
+**Problem**: Find the best day to buy and sell a stock for maximum profit.
+
+- ✅ *File*: `PartTwo.java`
+- ✅ *Approach*: Track minimum price and max profit while iterating.
+- ✅ *Time Complexity*: O(n)
+
+---
+
+### 4. **Trapping Rain Water**
+**Problem**: Given an elevation map, compute how much water it can trap.
+
+- ✅ *File*: `ImpQuestion.java`
+- ✅ *Approach*: Two-pointer technique to compute water from both sides.
+- ✅ *Time Complexity*: O(n)
+
+---
+
 ## 🚀 How to Run
 
 Make sure you have Java installed on your system.
